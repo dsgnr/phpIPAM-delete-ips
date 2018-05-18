@@ -13,4 +13,10 @@ ipam_creds=username:password
 - Set your Subnet ID in the remove.sh file
 - Update the hostname and your 'my_app' name as per the API documentation [here](https://phpipam.net/api-documentation/)
 - Add all the IP addresses from the respective Subnet ID into the ips.txt file
-
+  - If you need to add a range of IPs to the ips.txt file, you can use the ip-range-creator.sh script to create your range quickly.
+    
+    Example usage:
+    ```
+    ./ip-range-creator.sh 192.168.1.1 192.168.1.50 > ips.txt
+    ```
+    Then run the remove.sh script as normal.
