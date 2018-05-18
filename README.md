@@ -11,5 +11,6 @@ ipam_creds=username:password
 
 ### How to use this script
 - Set your Subnet ID in the remove.sh file
+- Update the hostname and your 'my_app' name as per the API documentation [here](https://phpipam.net/api-documentation/)
 - Add all the IP addresses from the respective Subnet ID into the ips.txt file
 
