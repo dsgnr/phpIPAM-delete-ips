@@ -3,10 +3,10 @@
 # https://danielhand.io
 
 # Include secrets
-. ./secrets.sh
+. ../secrets.sh
 
 # Vars
-subnet_id=7
+subnet_id=9
 green=`tput setaf 2`
 reset=`tput sgr0`
 
